@@ -1,35 +1,171 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jecSxI3G)
-# 📘 Assignment: HTML5 + Accessibility & SEO Basics
+# 🌐 Timothy Kahuki Karanja | Portfolio Website
 
-## Overview
+This repository contains the source code for my **personal portfolio website**, designed to present my **professional background**, **skills**, **experience**, and **current projects** in an interactive and visually appealing way.  
 
-This assignment will help you solidify your understanding of modern HTML5 structure while applying foundational concepts of web accessibility and search engine optimization (SEO). You’ll create a simple, semantically correct web page that prioritizes both human and machine readability—two pillars of great web design.
+It is built with **HTML5**, **Tailwind CSS**, and minimal **custom CSS**, with a focus on:
+- **Clean design**
+- **Responsive layout**
+- **Ease of customization**
+- **Professional presentation**
 
-## Objective
+---
 
-Build a basic web page using HTML5 semantic tags, applying accessibility best practices and beginner-friendly SEO principles. Your final output should demonstrate a well-structured layout that supports screen readers and is optimized for discoverability.
+## 🎯 Purpose
 
-## Guidelines
+The goal of this portfolio is to:
+- Present my **professional identity** and **technical skills** to potential employers, clients, and collaborators.
+- Showcase my **ongoing and past projects**.
+- Provide **downloadable and viewable research/project reports** directly on the site.
+- Serve as an easily maintainable **personal brand hub**.
 
-Use only HTML5. No CSS or JavaScript is required at this stage. Focus on using meaningful semantic elements to structure your page. Avoid using `<div>` or `<span>` unless absolutely necessary. Ensure your page has clearly defined sections such as a header, navigation, main content, and a footer.
+---
 
-Incorporate accessibility by using proper HTML5 landmarks and attributes that improve navigation for assistive technologies. Your HTML should reflect thoughtful planning of hierarchy and readability, both for users and search engines.
+## ✨ Features
 
-For SEO, emphasize the use of heading tags in the correct order, provide descriptive text, and ensure your content is both human-readable and crawler-friendly. Consider how a search engine would interpret your page in terms of structure and content clarity.
+### 🖼️ Modern Design
+- **Header with gradient background** for a strong first impression.
+- Circular **profile image** with border and shadow.
+- **Typography hierarchy** for readability.
 
-## Deliverables
+### 📑 Well-Structured Sections
+1. **Header** — Name, professional title, and contact info.
+2. **Navigation Bar** — Sticky and responsive navigation to quickly access sections.
+3. **Profile Summary** — A concise introduction to my professional identity.
+4. **Skills** — Core competencies presented in a responsive grid with logos/icons.
+5. **Experience** — Chronological listing of work history with bullet-point responsibilities.
+6. **Education** — Academic achievements and certifications.
+7. **Current Project** — 
+   - Description of my latest work (climate change & global food supply chains).
+   - Embedded **PDF preview**.
+   - Direct **download link** for offline access.
 
-A single HTML file named `index.html`. It should include:
+### 📱 Responsive Design
+- Mobile-first layout with Tailwind CSS.
+- Adjusts seamlessly to **phones**, **tablets**, and **desktops**.
 
-* A semantic structure using appropriate HTML5 elements.
-* Clear headings in a logical hierarchy.
-* Accessibility enhancements using proper tags and attributes.
-* SEO-friendly metadata and content.
+### 📄 Embedded PDF Viewer
+- Displays reports or research directly on the site without requiring a download.
+- Users can still download the PDF if preferred.
 
-## Tips
+---
 
-* Use HTML5 semantic tags appropriately.
-* Organize content with accessibility in mind.
-* Apply basic on-page SEO techniques.
-* Follow clean, readable HTML code structure.
+## 📂 Project Structure
+
+portfolio/
+│
+├── index.html # Main HTML file
+├── style.css # Custom CSS (supplementing Tailwind)
+│
+├── hogi.png # Profile image
+├── python-logo.png # Python logo
+├── SPSS_logo.png # SPSS logo
+├── Sql_logo.png # SQL logo
+├── HTML5_logo.png # HTML5 logo
+├── CSS_logo.png # CSS3 logo
+│
+├── Food Insecurity; A Global Crisis in 2025.pdf # Current project PDF
+│
+└── README.md # Documentation
+
+yaml
+Copy
+Edit
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1. **Clone the Repository**
+```bash
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+2. Open Locally
+Simply open index.html in a browser:
+
+bash
+Copy
+Edit
+open index.html
+or drag and drop it into a browser window.
+
+🖌️ Customization Guide
+You can easily adapt this portfolio to your needs:
+
+1. Profile Picture
+Replace hogi.png with your own image (preferably square, transparent background recommended).
+
+2. Personal Details
+In index.html, edit:
+
+html
+Copy
+Edit
+<h1>Timothy Kahuki Karanja</h1>
+<p class="text-xl">Aspiring Software Engineer</p>
+Replace with your own name, title, and contact info.
+
+3. Skills
+Update the Core Skills & Competencies section:
+
+html
+Copy
+Edit
+<div><img src="python-logo.png" alt="Python"> Python Programming & Git</div>
+Swap icons and skill descriptions as needed.
+
+4. Experience & Education
+Replace placeholder work history with your own.
+
+5. Current Project
+Replace Food Insecurity; A Global Crisis in 2025.pdf with your own project file.
+
+Update the description text to reflect your work.
+
+🌍 Deployment
+You can deploy this portfolio for free using:
+
+GitHub Pages
+Push your repository to GitHub.
+
+Go to Settings → Pages.
+
+Set Source to main branch.
+
+Save and visit the provided URL.
+
+Netlify
+Go to Netlify.
+
+Connect your GitHub repository.
+
+Deploy automatically with one click.
+
+📦 Dependencies
+This project uses:
+
+Tailwind CSS v2.2.19 (via CDN)
+
+Custom CSS (style.css)
+
+No JavaScript is required for core functionality.
+
+📜 License
+This portfolio is licensed under the MIT License.
+You are free to:
+
+Use
+
+Modify
+
+Share
+with attribution to the original author.
+
+📬 Contact
+For inquiries, collaborations, or opportunities:
+
+Email: timkaranjaxo@gmail.com
+
+GitHub: github.com/TimothyHogi
+
+Phone: +254707464056
 
